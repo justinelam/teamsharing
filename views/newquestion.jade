@@ -1,8 +1,0 @@
-extends layout
-
-block content
-    h1= title
-    form#formAddUser(name="addquestion",method="post",action="/addquestion")
-        input#inputName(type="text", placeholder="Your Name", name="name")
-        input#inputQuestion(type="text", placeholder="Your Question", name="question")
-        button#btnSubmit(type="submit") submit
