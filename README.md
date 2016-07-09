@@ -3,4 +3,6 @@
 Weekly questions to get to know your team
 
 ## Startup instructions
-Todo
+npm install webpack -g
+npm install
+npm start
