@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"title": "What's your name?",
+		"responses": [
+			{
+				"user_id": 1,
+				"response": "justine"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Where are you from?",
+		"responses": [
+			{
+				"user_id": 1,
+				"response": "Lafayette"
+			}
+		]
+	}
+]
