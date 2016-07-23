@@ -2,3 +2,17 @@ body {
 	background-color: #eee;
 	font-family: 'Catamaran', sans-serif;
 }
+
+body, h1, h2, h3, h4, h5, h6, div {
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	background: #fff;
+	box-sizing: border-box;
+	margin: 0 auto;
+	min-height: 100vh;
+	padding: 20px;
+	width: 960px;
+}

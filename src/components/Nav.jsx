@@ -9,7 +9,7 @@ var Nav = React.createClass({
         <NavItem pageName="Past questions" path="/#/questions" />
         <NavItem pageName="Submit new question" path="/#/questions/new" />
         <NavItem pageName="Vote" path="/#/questions/vote" />
-        <NavItem pageName="Profile" path="/#/profile/1" />
+        <NavItem pageName="Profile" path="/#/person/1" />
       </ul>
     )
   }

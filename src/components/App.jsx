@@ -30,7 +30,7 @@ var App = React.createClass({
 var routes = (
   <Router history={browserHistory}>
     <Route path="/" component={App}/>
-    <Route path="/person/:name/:id" component={Person}/>
+    <Route path="/person/:id" component={Person}/>
     <Route path="/questions" component={Questions}/>
     <Route path="/questions/current" component={Question}/>
     <Route path="/questions/new" component={AddQuestion}/>
