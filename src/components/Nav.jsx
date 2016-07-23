@@ -5,9 +5,11 @@ var Nav = React.createClass({
   render: function() {
     return (
       <ul>
-        <NavItem pageName="question-of-the-week" />
-        <NavItem pageName="list-of-questions" />
-        <NavItem pageName="profile" />
+        <NavItem pageName="Question of the week" path="/#/questions/current" />
+        <NavItem pageName="Past questions" path="/#/questions" />
+        <NavItem pageName="Submit new question" path="/#/questions/new" />
+        <NavItem pageName="Vote" path="/#/questions/vote" />
+        <NavItem pageName="Profile" path="/#/profile/1" />
       </ul>
     )
   }

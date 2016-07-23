@@ -32,6 +32,7 @@ var routes = (
     <Route path="/" component={App}/>
     <Route path="/person/:name/:id" component={Person}/>
     <Route path="/questions" component={Questions}/>
+    <Route path="/questions/current" component={Question}/>
     <Route path="/questions/new" component={AddQuestion}/>
     <Route path="/questions/submit" component={AddQuestion}/>
     <Route path="/questions/vote" component={Vote}/>
