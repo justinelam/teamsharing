@@ -6,6 +6,7 @@ var app = express();
 //Application Settings
 
 app.use(express.static('public'));
+app.use(express.static('node_modules'));
 
 //Configuration
 var connection = mysql.createConnection({
